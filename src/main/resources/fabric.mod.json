@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-no-mob-grief",
+  "version": "${version}",
+  "name": "Fabric No Mob Grief",
+  "description": "Disables Creeper, Ghast, Wither and Enderman block griefing",
+  "authors": ["CodedSakura"],
+  "contact": {},
+  "license": "ISC",
+  "icon": "assets/fabric-no-creeper-grief/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "fabric-no-creeper-grief.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": "~1.16.2"
+  }
+}
